@@ -9,6 +9,7 @@ import SearchBar from "@/components/SearchBar";
 
 export default function Hero() {
   const router = useRouter();
+  console.log("Hero component rendered");
   const { setSearchQuery } = useApp();
 
   const handleSearchSubmit = (e) => {
